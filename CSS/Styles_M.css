@@ -1,0 +1,149 @@
+#nav {
+  background-color: black;
+  color: white;
+  overflow: auto;
+  text-align: center;
+}
+
+#nav h1 a {
+  font-size: 50px;
+  float: none;
+}
+
+#nav ul {
+  list-style: none;
+  float: none;
+}
+
+#nav ul li {
+  float: none;
+}
+
+#nav ul li a {
+  padding: 5px;
+  border-top: 1px solid white;
+}
+
+/* Showcase */
+.showcase .content {
+  margin: 10px;
+  text-align: center;
+}
+.showcase .content h1 {
+  font-size: 30px;
+  margin: 10px;
+}
+.showcase .content p {
+  margin: 10px;
+  font-size: 15px;
+}
+.showcase .content a {
+  padding: 10px;
+  margin: 15px;
+  background: black;
+  color: white;
+}
+.showcase .content a:hover {
+  background: white;
+  color: black;
+}
+
+/* info */
+#info {
+  height: auto;
+}
+
+#info .info-img {
+  display: none;
+  float: none;
+}
+
+#info .info-content {
+  float: none;
+  width: 100%;
+}
+
+/* box */
+.box {
+  width: 100%;
+  background: white;
+  float: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.box-l {
+  width: 100%;
+  background: grey;
+  float: none;
+  text-align: center;
+  padding: 10px;
+}
+
+#foot {
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+/* About-info */
+#info-about {
+  height: 400px;
+}
+
+#info-about .info-about-img {
+  float: none;
+  width: 100%;
+  background: url("../Img/photo-2.jpg") no-repeat center center/cover;
+  min-height: 100%;
+  border-radius: 100%;
+}
+
+#info-about .info-about-content {
+  display: none;
+  float: none;
+  width: 100%;
+  background: white;
+  height: auto;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+#info-about .info-about-content h2 {
+  margin: 10px;
+}
+
+#info .info-about-content p {
+  margin: 10px 20px;
+}
+
+/* About-reviews */
+#review {
+  height: auto;
+  background: url("/Img/test-bg.jpg") no-repeat center center/cover;
+  padding: 10px;
+}
+
+#review h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+#review .review-1 {
+  margin: 20px;
+}
+
+#review .review-1 img {
+  display: inline-block;
+  float: none;
+  width: 100%;
+  border-radius: 100%;
+  padding: 10px;
+}
+#review .review-1 p {
+  float: none;
+  width: 100%;
+  padding: 10px;
+}
